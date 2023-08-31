@@ -4,6 +4,21 @@ bledstripper-grove
 Bluetooth Low Energy LED strip controller circuit board with standard Grove connectors.  Open hardware under the MIT License.
 
 
+MDBT42Q Pins
+------------
+
+| Function      | MDBT42Q Pin | nRF52832 Pin | Espruino Pin |
+|:--------------|:------------|:-------------|:-------------|
+| Red LED       | 16          | P0.3         | D3           |
+| Blue LED      | 17          | P0.4         | D4           |
+| Green LED     | 18          | P0.5         | D5           |
+| Output Enable | 23          | P0.10        | D10          |
+| LED data CH1  | 26          | P0.12        | D12          |
+| LED data CH2  | 27          | P0.13        | D13          |
+| LED data CH3  | 28          | P0.14        | D14          |
+| LED data CH4  | 29          | P0.15        | D15          |
+
+
 License
 -------
 
