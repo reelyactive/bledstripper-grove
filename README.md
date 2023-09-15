@@ -24,6 +24,26 @@ Schematic
 ![bledstripper-grove schematic](https://reelyactive.github.io/bledstripper-grove/images/bledstripper-grove-schematic-230317.png)
 
 
+Key components
+--------------
+
+The __bledstripper-grove__ comprises the following three key components:
+- [Raytac's MDBT42Q-512KV2 module](https://www.raytac.com/product/ins.php?index_id=31), which is based on the Nordic nRF52832 Bluetooth Low Energy IC, and which is [Espruino](https://www.espruino.com/MDBT42Q)-compatible.
+- [TI's LP2985-33DBVR](https://www.ti.com/product/LP2985) 3.3V low-dropout voltage regulator to power the MDBT42Q
+- [TI's TXU0104QPWRQ1](https://www.ti.com/product/TXU0104) four-channel voltage-level translator to convert the high-speed LED control signals from 3.3V to 5.0V
+
+BOM selection was made to maximise [Shenzhen/Seeed OPL](https://www.seeedstudio.com/opl.html) (open parts library) components which include:
+
+| Part number           | Shenzhen OPL SKU | Description   |
+|:----------------------|:-----------------|---------------|
+| MDBT42Q-512KV2        | 317030213        | E1 (SoC)      |
+| LP2985-33DBVR         | 310030033        | U3 (LDO)      |
+| 19-217-R6C-AL1M2VY-3T | 304090042        | D1 (Red)      |
+| 19-217-BHC-ZL1M2RY-3T | 304090045        | D2 (Blue)     |
+| 19-217-G7C-AN1P2-3T   | 304090043        | D3 (Green)    |
+| 1125R-4P              | 320110034        | J1-J4 (Grove) |
+
+
 MDBT42Q Pins
 ------------
 
@@ -37,6 +57,12 @@ MDBT42Q Pins
 | LED data CH2  | 27          | P0.13        | D13          |
 | LED data CH3  | 28          | P0.14        | D14          |
 | LED data CH4  | 29          | P0.15        | D15          |
+
+
+Enclosure
+---------
+
+The __bledstripper-grove__ is designed to fit the inexpensive [Hammond Manufacturing 1551K enclosure](https://www.hammfg.com/electronics/small-case/plastic/1551), which is available with or without flange, and in several colours.  Cutouts are required for the barrel connector and grove connectors.
 
 
 License
