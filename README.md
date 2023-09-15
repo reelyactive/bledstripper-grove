@@ -65,6 +65,12 @@ Enclosure
 The __bledstripper-grove__ is designed to fit the inexpensive [Hammond Manufacturing 1551K enclosure](https://www.hammfg.com/electronics/small-case/plastic/1551), which is available with or without flange, and in several colours.  Cutouts are required for the barrel connector and grove connectors.
 
 
+Project History
+---------------
+
+The __bledstripper-grove__ is a collaboration between [reelyActive](https://www.reelyactive.com/) and [génielab.](https://genielab.co/), with the v0.1 layout completed by [TristanFranc](https://github.com/TristanFranc/).
+
+
 License
 -------
 
