@@ -4,6 +4,26 @@ bledstripper-grove
 Bluetooth Low Energy LED strip controller circuit board with standard Grove connectors.  Open hardware under the MIT License.
 
 
+Overview
+--------
+
+The __bledstripper-grove__ combines a MDBT42Q Bluetooth Low Energy SoM and four Grove connectors that can be driven with high-amperage 5VDC power via a standard barrel connector.  It simplifies the wireless programming and control of up to four long strips of WS2813 LEDs (or equivalent).
+
+![bledstripper-grove render](https://reelyactive.github.io/bledstripper-grove/images/bledstripper-grove-render-230317.png)
+
+
+LED Strips
+----------
+
+The __bledstripper-grove__ is designed to offer plug-and-play compatibility with [Seeed Studio's family of WS2813 LED strips](https://www.seeedstudio.com/Grove-WS2813-RGB-LED-Strip-Waterproof-30-LED-m-1m.html) which use standard Grove connectors.  The __bledstripper-grove__ is nonetheless compatible with the family of 5VDC addressable LEDs commonly referred to as NeoPixels, strips of which can alternatively be directly soldered to the through-hole connectors of J1-J4 of the board.
+
+
+Schematic
+---------
+
+![bledstripper-grove schematic](https://reelyactive.github.io/bledstripper-grove/images/bledstripper-grove-schematic-230317.png)
+
+
 MDBT42Q Pins
 ------------
 
